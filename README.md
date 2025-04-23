@@ -60,9 +60,9 @@ You convert RSSI values to distances from each anchor, then solve equations to f
 
 ### 📁 Python Scripts
 
-1. **`wifi_scan_gui.py`** — Scans all visible SSIDs and displays their RSSI values in a live-updating GUI.
-2. **`wifi_distance_gui.py`** — Enhances the above by estimating distance using path loss model.
-3. **`data_logger_gui.py`** — Lets you scan only target SSIDs and manually enter `(x, y)` positions. Saves readings to `rssi_data.csv`.
+1. **`RSSI_measurement.py`** — Scans all visible SSIDs and displays their RSSI values in a live-updating GUI.
+2. **`distance_measuremtn.py`** — Enhances the above by estimating distance using path loss model.
+3. **`data_set_development_for_training_model.py`** — Lets you scan only target SSIDs and manually enter `(x, y)` positions. Saves readings to `rssi_data.csv`.
 
 ---
 
